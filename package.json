@@ -4,31 +4,30 @@
     "description": "## Description",
     "main": "server.js",
     "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed": "node seeds/index.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "seed": "node seeds/index.js"
     },
     "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aafaydi/model_view__controller"
+        "type": "git",
+        "url": "git+https://github.com/aafaydi/model_view__controller"
     },
     "author": "Ahmad Faydi",
     "license": "ISC",
     "bugs": {
-    "url": "git+https://github.com/aafaydi/model_view__controller/issues"
+        "url": "git+https://github.com/aafaydi/model_view__controller/issues"
     },
     "homepage": "git+https://github.com/aafaydi/model_view__controller#readme",
     "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.1",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.0",
-    "express-session": "^1.17.1",
-    "handlebars": "^4.7.7",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.6.2"
-    },
-    "devDependencies": {}
+        "bcryptjs": "^2.4.3",
+        "connect-session-sequelize": "^7.1.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.0",
+        "express-session": "^1.17.1",
+        "handlebars": "^4.7.7",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.2.5",
+        "sequelize": "^6.6.2"
     }
+}
