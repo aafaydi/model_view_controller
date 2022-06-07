@@ -36,3 +36,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 # Documentation:
 MVC_screenshot.png
+
+GitHub Repo: https://github.com/aafaydi/model_view_controller
+
+GitHub Pages:  https://aafaydi.github.io/model_view_controller/
