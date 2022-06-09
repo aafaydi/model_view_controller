@@ -1,6 +1,7 @@
 const User = require('./User');
 const Post = require('./Post');
 const Comment = require('./Comment');
+const { post } = require('../controllers/dashboard-routes');
 
 
 
@@ -25,7 +26,7 @@ Comment.belongsTo(User, {
 
 
 
-Comment.belongsTo(Post, {
+Post.hasMany(Comment, {
     foreignKey: 'post_id',
     onDelete: 'CASCADE',
 });
