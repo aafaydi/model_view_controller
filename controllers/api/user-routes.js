@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { User, Post, Comment } = require('../../models');
-//const withAuth = require('../../utils/auth');
+// const withAuth = require('../../utils/auth');
 
 
 
@@ -143,7 +143,6 @@ console.log(err);
 res.status(500).json(err);
 });
 });
-
 
 router.delete('/:id', (req, res) => {
 User.destroy({
