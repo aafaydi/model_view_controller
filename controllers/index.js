@@ -12,7 +12,7 @@ router.use('/dashboard', dashboardRoutes);
 
 
 router.use((req, res) => {
-res.status(404).end();
+    res.status(404).end();
 });
 
 
